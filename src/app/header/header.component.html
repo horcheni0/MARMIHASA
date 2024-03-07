@@ -1,0 +1,76 @@
+<header class="site-header">
+  <div class="container">
+      <div class="row ">
+          
+          <div class="col-lg-8 col-12 d-flex flex-wrap   ">
+            
+              
+              
+
+            <p style="color: #1a3062;  " class="me-4 ">
+                  <i style="color: #1a3062;  " class="bi-envelope me-2"></i>
+                 
+
+                  <a style="color: #1a3062; "href="mailto:info@gatagmbh.da">
+                    info&#64;gatagmbh.da
+                  </a>
+                </p>
+          </div>
+
+          <div class="col-lg-3 col-12 ms-auto d-lg-block d-none">
+              <ul class="social-icon" >
+
+               
+
+                  <li class="social-icon-item">
+                      <a href="#" class="social-icon-link bi-facebook"style="color: #1a3062; "></a>
+                  </li>
+
+                  <li class="social-icon-item">
+                      <a href="#" class="social-icon-link bi-instagram"style="color: #1a3062; "></a>
+                  </li>
+
+                  <li class="social-icon-item">
+                      <a href="#" class="social-icon-link bi-youtube"style="color: #1a3062; "></a>
+                  </li>
+                  
+                  <li class="social-icon-item">
+                    <a href="#" class="social-icon-link bi-whatsapp"style="color: #1a3062; "></a>
+                </li>
+
+
+              
+               
+
+                  <li class="social-icon-item">
+                    <div class="language-selector">
+                      <select #selectedLang (change)="changeLanguageTo(selectedLang.value)" class="language-select">
+                          <option *ngFor="let option of languageOptions" [value]="option.name"
+                                  [selected]="option.name === change.currentLang">
+                              {{ option.name }}
+                          </option>
+                      </select>
+                      <!-- Display the selected language's image if it's available -->
+                      <img [src]="getSelectedLanguageImage()"  class="language-image">
+                  </div>
+                  
+                  
+                </li>
+               
+                
+            
+              
+
+               
+              </ul>
+          </div>
+
+      </div>
+
+      
+
+     
+      <img src="assets/images/logo.png" class="container-fluid" style="width: 30%; align-items: center; display: block;margin: auto; " >
+    
+  </div>
+</header>

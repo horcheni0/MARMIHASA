@@ -1,0 +1,24 @@
+.language-selector {
+    display: flex;
+    align-items: center;
+	
+}
+
+.language-select {
+    font-size: 12px; /* Adjust font size as needed */
+    padding: 5px; /* Adjust padding as needed */
+    margin-right: 10px; /* Adjust margin as needed */
+    border: 1px solid #fcfcfc; /* Add border for better visual separation */
+    border-radius: 5px; /* Add border radius for rounded corners */
+	color: rgb(253, 253, 250);
+	background-color: #1a3062;
+	margin-left: 20px;
+}
+
+.language-image {
+    width: 20px; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+	padding: 1px; ;
+    border-radius: 1px; /* Add border radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for better visual effect */
+}
